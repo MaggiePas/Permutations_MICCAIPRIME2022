@@ -1,6 +1,6 @@
 ![Logos](prime_logos.png)
 
-This repository provides the code for our paper [**"Bridging the Gap Between Deep Learning and Hypothesis-Driven Analysis via Permutation Testing"**](https://arxiv.org/abs/2207.14349) by M. Paschali, E. Adeli, Q. Zhao and K. M. Pohl published at the PRIME Workshop at MICCAI 2022.
+This repository provides the code for our paper [**"Bridging the Gap Between Deep Learning and Hypothesis-Driven Analysis via Permutation Testing"**](https://arxiv.org/abs/2207.14349) by M. Paschali, Q. Zhao, E. Adeli and K. M. Pohl published at the PRIME Workshop at MICCAI 2022.
 
 ## Abstract
 A fundamental approach in neuroscience research is to test hypotheses based on neuropsychological and behavioral measures, i.e.,
