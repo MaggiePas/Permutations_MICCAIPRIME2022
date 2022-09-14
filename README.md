@@ -31,16 +31,18 @@ Bridging the Gap between Deep Learning and Hypothesis-Driven Analysis via Permut
 
 <br>
 
-> @article{paschali2022prime,<br>
-  title={Bridging the Gap between Deep Learning and Hypothesis-Driven Analysis via Permutation Testing},<br>
-  author={Paschali, Magdalini and Zhao, Qingyu and Adeli, Ehsan and Pohl, Kilian M},<br>
-  journal={International Workshop on PRedictive Intelligence In MEdicine, PRIME - MICCAI},<br>
-  year={2022}<br>
+``` bibtex 
+@article{paschali2022prime,
+  title={Bridging the Gap between Deep Learning and Hypothesis-Driven Analysis via Permutation Testing},
+  author={Paschali, Magdalini and Zhao, Qingyu and Adeli, Ehsan and Pohl, Kilian M},
+  journal={International Workshop on PRedictive Intelligence In MEdicine, PRIME - MICCAI},
+  year={2022}
 }
+```
 
 ## Contact
 
-Please contact paschali {at} stanford {dot} edu for questions about the dataset used for this work.
+Please contact paschali {at} stanford {dot} edu for questions about the dataset, the code or the methodology used for this work.
 
 ## Acknowledgements 
 This study was in part supported by the National Consortium on Alcohol and Neurodevelopment in Adolescence (NCANDA) by means of
