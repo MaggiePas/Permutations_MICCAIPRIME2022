@@ -284,33 +284,6 @@ def acc_per_run(age=False):
     return baseline_subj_acc, baseline_subj_balanced_acc, baseline_acc, baseline_balanced_acc, baseline_f1
 
 
-def acc_per_fold(fold=0):
-
-    # Accuracies for seq2one model trained on the Google CV 1964 seed
-    if fold == 0:
-        baseline_acc = 0.92
-        baseline_balanced_acc = 0.8788515
-        baseline_f1 = 0.7282609
-    elif fold == 1:
-        baseline_acc = 0.862903
-        baseline_balanced_acc = 0.6188406
-        baseline_f1 = 0.592657
-    elif fold == 2:
-        baseline_acc = 0.9032258
-        baseline_balanced_acc = 0.715517
-        baseline_f1 = 0.6736842
-    elif fold == 3:
-        baseline_acc = 0.8387096774
-        baseline_balanced_acc = 0.797413793
-        baseline_f1 = 0.6412037
-    elif fold == 4:
-        baseline_acc = 0.8467741935
-        baseline_balanced_acc = 0.7173382173
-        baseline_f1 = 0.60516172
-
-    return baseline_acc, baseline_balanced_acc, baseline_f1
-
-
 def evaluate_last_timestep(model=None, val_loader=None, device=None):
     y_pred_list = []
     y_test = []
