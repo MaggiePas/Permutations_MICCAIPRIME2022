@@ -263,26 +263,6 @@ def acc_per_run_dataset_cross_sectional():
 
     return baseline_acc, baseline_bacc, baseline_f1
 
-def acc_per_run(age=False):
-
-    # Accuracies for seq2one model trained on the Google CV
-    if age:
-        # In this iteration of the study we don't predict age
-        # No aces, negative valence, only tabular, multi task, seed 1964, seq2seq
-        baseline_subj_acc = 0.0
-        baseline_subj_balanced_acc = 0.0
-        baseline_acc = 0.0
-        baseline_balanced_acc = 0.0
-        baseline_f1 = 0.0
-    else:
-        baseline_subj_acc = 0.874323
-        baseline_subj_balanced_acc = 0.745592
-        baseline_acc = 0.874323
-        baseline_balanced_acc = 0.745592
-        baseline_f1 = 0.648194
-
-    return baseline_subj_acc, baseline_subj_balanced_acc, baseline_acc, baseline_balanced_acc, baseline_f1
-
 
 def evaluate_last_timestep(model=None, val_loader=None, device=None):
     y_pred_list = []
