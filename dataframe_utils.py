@@ -227,12 +227,12 @@ def rename_constructs(in_data=None):
 def sum_stroop(in_data=None):
 
     in_data['stroop_error_sum'] = in_data['stroop_conm_rr_error'] + in_data['stroop_conm_rs_error'] + in_data['stroop_connm_rr_error'] + \
-                   in_data['stroop_connm_rr_error'] + in_data['stroop_incm_rr_error'] + in_data['stroop_incm_rs_error'] + \
-                   in_data['stroop_incm_rs_error'] + in_data['stroop_incm_rs_error']
+                   in_data['stroop_connm_rs_error'] + in_data['stroop_incm_rr_error'] + in_data['stroop_incm_rs_error'] + \
+                   in_data['stroop_incnm_rr_error'] + in_data['stroop_incnm_rs_error']
 
     in_data['stroop_miss_sum'] = in_data['stroop_conm_rr_miss'] + in_data['stroop_conm_rs_miss'] + in_data['stroop_connm_rr_miss'] + \
-                   in_data['stroop_connm_rr_miss'] + in_data['stroop_incm_rr_miss'] + in_data['stroop_incm_rs_miss'] + \
-                   in_data['stroop_incm_rs_miss'] + in_data['stroop_incm_rs_miss']
+                   in_data['stroop_connm_rs_miss'] + in_data['stroop_incm_rr_miss'] + in_data['stroop_incm_rs_miss'] + \
+                   in_data['stroop_incnm_rr_miss'] + in_data['stroop_incnm_rs_miss']
 
     return in_data
 
